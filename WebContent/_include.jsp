@@ -7,3 +7,4 @@
 <%@ taglib prefix="json" uri="http://labs.cd2h.org/JSONTagLib"%>
 <%@ taglib prefix="dashboard" uri="http://icts.uiowa.edu/N3CDashboardTagLib"%>
 <%@ taglib prefix="strapi" uri="http://icts.uiowa.edu/STRAPITagLib"%>
+<%@ taglib prefix="calendar" uri="http://cd2h.org/google-calendar"%>
