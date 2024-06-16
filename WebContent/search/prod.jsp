@@ -8,7 +8,10 @@
 
 <body>
 	<div class="container-fluid">
-		<jsp:include page="../header.jsp" />
+		<jsp:include page="../header.jsp">
+			<jsp:param value="5" name="navbar"/>
+			<jsp:param value="2" name="profile"/>
+		</jsp:include>
 		<div class="row flex-nowrap main-block">
 			<div class="col-xs-8">
 				<lucene:search lucenePath="/home/dave/transition/n3c_index" label="content" queryParserName="standard" queryString="${param.query}" useConjunctionByDefault="true">

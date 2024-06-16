@@ -6,7 +6,10 @@
 
 <body>
 	<div class="container-fluid">
-		<jsp:include page="../header.jsp" />
+		<jsp:include page="../header.jsp">
+			<jsp:param value="5" name="navbar"/>
+			<jsp:param value="2" name="profile"/>
+		</jsp:include>
 		<strapi:enclaveEssentials ID="1">
 			<div class="main-block">
 					<h1><strapi:enclaveEssentialsHeader /></h1>

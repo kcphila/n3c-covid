@@ -7,7 +7,10 @@
 
 <body>
 	<div class="container-fluid">
-		<jsp:include page="../header.jsp" />
+		<jsp:include page="../header.jsp">
+			<jsp:param value="5" name="navbar"/>
+			<jsp:param value="2" name="profile"/>
+		</jsp:include>
 	</div>
 	<div class="main-block">
 	<strapi:newsItems ID="1">
